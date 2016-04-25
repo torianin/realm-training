@@ -28,12 +28,16 @@ public class DatabaseHelper {
             let taskInformations = ["Systemy Wspomagania Lista 3", "Nowe Technologie Baz Danych Lista 4", "Dedukcyjne bazy danych Lista 7"]
             task.information = taskInformations.sample()
             
-            let year = faker.number.randomInt(min: 2012, max: 2014)
-            let month =  NSString(format: "%02d", faker.number.randomInt(min:1, max:12))
-            let day = faker.number.randomInt(min:1, max: 28)
+            let begin_year = faker.number.randomInt(min: 2012, max: 2014)
+            let begin_month =  NSString(format: "%02d", faker.number.randomInt(min:1, max:12))
+            let begin_day = faker.number.randomInt(min:1, max: 28)
             
-            task.startdate = NSDate(dateString:"\(year)-\(month)-\(day)")
-            task.enddate = NSDate(dateString:"\(year+1)-\(month)-\(day)")
+            let end_year = faker.number.randomInt(min: 2015, max: 2016)
+            let end_month =  NSString(format: "%02d", faker.number.randomInt(min:1, max:12))
+            let end_day = faker.number.randomInt(min:1, max: 28)
+            
+            task.startdate = NSDate(dateString:"\(begin_year)-\(begin_month)-\(begin_day)")
+            task.enddate = NSDate(dateString:"\(end_year)-\(end_month)-\(end_day)")
             tasks.append(task);
         }
         
