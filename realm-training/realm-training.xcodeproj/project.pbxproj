@@ -7,71 +7,153 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2B57D761CCD3D5E0046AE84 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B57D751CCD3D5E0046AE84 /* main.swift */; };
+		41ADC0081CE1BF7A324CC215 /* Pods_realm_training.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE199A0FBC03C50E28FEFB5C /* Pods_realm_training.framework */; };
+		E22109CC1CCD5825000BBE7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22109CB1CCD5825000BBE7C /* AppDelegate.swift */; };
+		E22109CE1CCD5825000BBE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22109CD1CCD5825000BBE7C /* Assets.xcassets */; };
+		E22109D11CCD5825000BBE7C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22109CF1CCD5825000BBE7C /* MainMenu.xib */; };
+		E22109E11CCD588A000BBE7C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22109DA1CCD588A000BBE7C /* Address.swift */; };
+		E22109E21CCD588A000BBE7C /* Applicant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22109DB1CCD588A000BBE7C /* Applicant.swift */; };
+		E22109E31CCD588A000BBE7C /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22109DC1CCD588A000BBE7C /* Department.swift */; };
+		E22109E41CCD588A000BBE7C /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22109DD1CCD588A000BBE7C /* Employee.swift */; };
+		E22109E51CCD588A000BBE7C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22109DE1CCD588A000BBE7C /* Person.swift */; };
+		E22109E61CCD588A000BBE7C /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22109DF1CCD588A000BBE7C /* Project.swift */; };
+		E22109E71CCD588A000BBE7C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22109E01CCD588A000BBE7C /* Task.swift */; };
+		E22109EE1CCD601A000BBE7C /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22109ED1CCD601A000BBE7C /* DatabaseHelper.swift */; };
+		E22109F11CCD936C000BBE7C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22109F01CCD936C000BBE7C /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		E2B57D701CCD3D5E0046AE84 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		E2B57D721CCD3D5E0046AE84 /* realm-training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "realm-training"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2B57D751CCD3D5E0046AE84 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		69ECA6CF0D23DC90DEA9CC0B /* Pods-realm-training.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-training.debug.xcconfig"; path = "Pods/Target Support Files/Pods-realm-training/Pods-realm-training.debug.xcconfig"; sourceTree = "<group>"; };
+		B36428C8A736B2E4F8F9FAF0 /* Pods-realm-training.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm-training.release.xcconfig"; path = "Pods/Target Support Files/Pods-realm-training/Pods-realm-training.release.xcconfig"; sourceTree = "<group>"; };
+		CE199A0FBC03C50E28FEFB5C /* Pods_realm_training.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realm_training.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22109C81CCD5825000BBE7C /* realm-training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "realm-training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22109CB1CCD5825000BBE7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E22109CD1CCD5825000BBE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E22109D01CCD5825000BBE7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E22109D21CCD5825000BBE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22109DA1CCD588A000BBE7C /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		E22109DB1CCD588A000BBE7C /* Applicant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Applicant.swift; sourceTree = "<group>"; };
+		E22109DC1CCD588A000BBE7C /* Department.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		E22109DD1CCD588A000BBE7C /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		E22109DE1CCD588A000BBE7C /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E22109DF1CCD588A000BBE7C /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		E22109E01CCD588A000BBE7C /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E22109ED1CCD601A000BBE7C /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseHelper.swift; path = db/DatabaseHelper.swift; sourceTree = "<group>"; };
+		E22109F01CCD936C000BBE7C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = extensions/Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E2B57D6F1CCD3D5E0046AE84 /* Frameworks */ = {
+		E22109C51CCD5825000BBE7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41ADC0081CE1BF7A324CC215 /* Pods_realm_training.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E2B57D691CCD3D5E0046AE84 = {
+		32A3F623D7793E2491BEB9A8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E2B57D741CCD3D5E0046AE84 /* realm-training */,
-				E2B57D731CCD3D5E0046AE84 /* Products */,
+				69ECA6CF0D23DC90DEA9CC0B /* Pods-realm-training.debug.xcconfig */,
+				B36428C8A736B2E4F8F9FAF0 /* Pods-realm-training.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B60F2ABBE28F73CF7F70FF30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE199A0FBC03C50E28FEFB5C /* Pods_realm_training.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E22109BF1CCD5825000BBE7C = {
+			isa = PBXGroup;
+			children = (
+				E22109CA1CCD5825000BBE7C /* realm-training */,
+				E22109C91CCD5825000BBE7C /* Products */,
+				32A3F623D7793E2491BEB9A8 /* Pods */,
+				B60F2ABBE28F73CF7F70FF30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		E2B57D731CCD3D5E0046AE84 /* Products */ = {
+		E22109C91CCD5825000BBE7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2B57D721CCD3D5E0046AE84 /* realm-training */,
+				E22109C81CCD5825000BBE7C /* realm-training.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E2B57D741CCD3D5E0046AE84 /* realm-training */ = {
+		E22109CA1CCD5825000BBE7C /* realm-training */ = {
 			isa = PBXGroup;
 			children = (
-				E2B57D751CCD3D5E0046AE84 /* main.swift */,
+				E22109D81CCD588A000BBE7C /* source */,
+				E22109CB1CCD5825000BBE7C /* AppDelegate.swift */,
+				E22109CD1CCD5825000BBE7C /* Assets.xcassets */,
+				E22109CF1CCD5825000BBE7C /* MainMenu.xib */,
+				E22109D21CCD5825000BBE7C /* Info.plist */,
 			);
 			path = "realm-training";
+			sourceTree = "<group>";
+		};
+		E22109D81CCD588A000BBE7C /* source */ = {
+			isa = PBXGroup;
+			children = (
+				E22109EF1CCD92EF000BBE7C /* extensions */,
+				E22109E81CCD5A43000BBE7C /* db */,
+				E22109D91CCD588A000BBE7C /* models */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		E22109D91CCD588A000BBE7C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E22109DA1CCD588A000BBE7C /* Address.swift */,
+				E22109DB1CCD588A000BBE7C /* Applicant.swift */,
+				E22109DC1CCD588A000BBE7C /* Department.swift */,
+				E22109DD1CCD588A000BBE7C /* Employee.swift */,
+				E22109DE1CCD588A000BBE7C /* Person.swift */,
+				E22109DF1CCD588A000BBE7C /* Project.swift */,
+				E22109E01CCD588A000BBE7C /* Task.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E22109E81CCD5A43000BBE7C /* db */ = {
+			isa = PBXGroup;
+			children = (
+				E22109ED1CCD601A000BBE7C /* DatabaseHelper.swift */,
+			);
+			name = db;
+			sourceTree = "<group>";
+		};
+		E22109EF1CCD92EF000BBE7C /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E22109F01CCD936C000BBE7C /* Extensions.swift */,
+			);
+			name = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2B57D711CCD3D5E0046AE84 /* realm-training */ = {
+		E22109C71CCD5825000BBE7C /* realm-training */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2B57D791CCD3D5E0046AE84 /* Build configuration list for PBXNativeTarget "realm-training" */;
+			buildConfigurationList = E22109D51CCD5825000BBE7C /* Build configuration list for PBXNativeTarget "realm-training" */;
 			buildPhases = (
-				E2B57D6E1CCD3D5E0046AE84 /* Sources */,
-				E2B57D6F1CCD3D5E0046AE84 /* Frameworks */,
-				E2B57D701CCD3D5E0046AE84 /* CopyFiles */,
+				65395C89BEC627AF1BFB7945 /* Check Pods Manifest.lock */,
+				E22109C41CCD5825000BBE7C /* Sources */,
+				E22109C51CCD5825000BBE7C /* Frameworks */,
+				E22109C61CCD5825000BBE7C /* Resources */,
+				FCAD2F05E3FC39D2679D8A14 /* Embed Pods Frameworks */,
+				FFCA54C4DC7CE582D46A0C18 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -79,54 +161,135 @@
 			);
 			name = "realm-training";
 			productName = "realm-training";
-			productReference = E2B57D721CCD3D5E0046AE84 /* realm-training */;
-			productType = "com.apple.product-type.tool";
+			productReference = E22109C81CCD5825000BBE7C /* realm-training.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E2B57D6A1CCD3D5E0046AE84 /* Project object */ = {
+		E22109C01CCD5825000BBE7C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Robert Ignasiak";
 				TargetAttributes = {
-					E2B57D711CCD3D5E0046AE84 = {
+					E22109C71CCD5825000BBE7C = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = E2B57D6D1CCD3D5E0046AE84 /* Build configuration list for PBXProject "realm-training" */;
+			buildConfigurationList = E22109C31CCD5825000BBE7C /* Build configuration list for PBXProject "realm-training" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = E2B57D691CCD3D5E0046AE84;
-			productRefGroup = E2B57D731CCD3D5E0046AE84 /* Products */;
+			mainGroup = E22109BF1CCD5825000BBE7C;
+			productRefGroup = E22109C91CCD5825000BBE7C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2B57D711CCD3D5E0046AE84 /* realm-training */,
+				E22109C71CCD5825000BBE7C /* realm-training */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		E22109C61CCD5825000BBE7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22109CE1CCD5825000BBE7C /* Assets.xcassets in Resources */,
+				E22109D11CCD5825000BBE7C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65395C89BEC627AF1BFB7945 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCAD2F05E3FC39D2679D8A14 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realm-training/Pods-realm-training-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFCA54C4DC7CE582D46A0C18 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-realm-training/Pods-realm-training-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		E2B57D6E1CCD3D5E0046AE84 /* Sources */ = {
+		E22109C41CCD5825000BBE7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B57D761CCD3D5E0046AE84 /* main.swift in Sources */,
+				E22109E71CCD588A000BBE7C /* Task.swift in Sources */,
+				E22109EE1CCD601A000BBE7C /* DatabaseHelper.swift in Sources */,
+				E22109E51CCD588A000BBE7C /* Person.swift in Sources */,
+				E22109E21CCD588A000BBE7C /* Applicant.swift in Sources */,
+				E22109E11CCD588A000BBE7C /* Address.swift in Sources */,
+				E22109F11CCD936C000BBE7C /* Extensions.swift in Sources */,
+				E22109CC1CCD5825000BBE7C /* AppDelegate.swift in Sources */,
+				E22109E41CCD588A000BBE7C /* Employee.swift in Sources */,
+				E22109E61CCD588A000BBE7C /* Project.swift in Sources */,
+				E22109E31CCD588A000BBE7C /* Department.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		E22109CF1CCD5825000BBE7C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22109D01CCD5825000BBE7C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		E2B57D771CCD3D5E0046AE84 /* Debug */ = {
+		E22109D31CCD5825000BBE7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -171,7 +334,7 @@
 			};
 			name = Debug;
 		};
-		E2B57D781CCD3D5E0046AE84 /* Release */ = {
+		E22109D41CCD5825000BBE7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,16 +371,28 @@
 			};
 			name = Release;
 		};
-		E2B57D7A1CCD3D5E0046AE84 /* Debug */ = {
+		E22109D61CCD5825000BBE7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69ECA6CF0D23DC90DEA9CC0B /* Pods-realm-training.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "realm-training/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torianin.realm-training";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		E2B57D7B1CCD3D5E0046AE84 /* Release */ = {
+		E22109D71CCD5825000BBE7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36428C8A736B2E4F8F9FAF0 /* Pods-realm-training.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "realm-training/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "torianin.realm-training";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -225,24 +400,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2B57D6D1CCD3D5E0046AE84 /* Build configuration list for PBXProject "realm-training" */ = {
+		E22109C31CCD5825000BBE7C /* Build configuration list for PBXProject "realm-training" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2B57D771CCD3D5E0046AE84 /* Debug */,
-				E2B57D781CCD3D5E0046AE84 /* Release */,
+				E22109D31CCD5825000BBE7C /* Debug */,
+				E22109D41CCD5825000BBE7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2B57D791CCD3D5E0046AE84 /* Build configuration list for PBXNativeTarget "realm-training" */ = {
+		E22109D51CCD5825000BBE7C /* Build configuration list for PBXNativeTarget "realm-training" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2B57D7A1CCD3D5E0046AE84 /* Debug */,
-				E2B57D7B1CCD3D5E0046AE84 /* Release */,
+				E22109D61CCD5825000BBE7C /* Debug */,
+				E22109D71CCD5825000BBE7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E2B57D6A1CCD3D5E0046AE84 /* Project object */;
+	rootObject = E22109C01CCD5825000BBE7C /* Project object */;
 }

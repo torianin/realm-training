@@ -1,0 +1,21 @@
+PODS:
+  - Fakery (1.2.0):
+    - SwiftyJSON
+  - Realm (0.99.0):
+    - Realm/Headers (= 0.99.0)
+  - Realm/Headers (0.99.0)
+  - RealmSwift (0.99.0):
+    - Realm (= 0.99.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Fakery
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  Fakery: ff6a27c3688a05c055d3e64c5fa9d78684796749
+  Realm: cf275f109b94e5399896960c90285a043edb3d56
+  RealmSwift: f40e5634bbc74f063163561d02acc4aa040d40a5
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0
